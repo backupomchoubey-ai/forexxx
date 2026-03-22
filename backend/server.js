@@ -287,4 +287,4 @@ httpServer.listen(PORT, () => {
     timezone: 'UTC'
   })
   console.log('[CRON] Daily swap application scheduled for 22:00 UTC')
-}) 
+})  

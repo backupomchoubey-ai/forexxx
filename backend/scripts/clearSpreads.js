@@ -1,7 +1,10 @@
 import mongoose from 'mongoose'
 import Charges from '../models/Charges.js'
 
-mongoose.connect('mongodb://localhost:27017/dios').then(async () => {
+import dotenv from 'dotenv'
+dotenv.config()
+
+mongoose.connect(process.env.MONGODB_URI).then(async () => {
   // Set all spreadValue to 0
   const result = await Charges.updateMany(
     { spreadValue: { $gt: 0 } },
