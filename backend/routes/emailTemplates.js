@@ -1654,7 +1654,7 @@ router.post('/settings/send-test', async (req, res) => {
 
 
 
-    const logoUrl = process.env.LOGO_URL || 'https://extrede.com/extrede-logo.png'
+    const logoUrl = process.env.LOGO_URL || 'https://aideveloperwala.com/aideveloperwala-logo.jpg'
 
     const mailOptions = {
 

@@ -413,7 +413,7 @@ const Dashboard = () => {
       >
         {/* Logo - Icon only */}
         <div className="p-4 flex items-center justify-center shrink-0">
-          <img src={isDarkMode ? "/extrede-logo.png" : "/extrede-logo.png"} alt="Extrede" className="h-8 w-auto object-contain" />
+          <img src={isDarkMode ? "/aideveloperwala-logo.jpg" : "/aideveloperwala-logo.jpg"} alt="aideveloperwala" className="h-8 w-auto object-contain" />
         </div>
 
         {/* Menu */}

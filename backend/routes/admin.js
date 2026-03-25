@@ -365,9 +365,9 @@ router.put('/users/:id/ban', async (req, res) => {
           email: user.email,
           reason: reason || 'Policy violation',
           date: new Date().toLocaleString(),
-          platformName: settings?.platformName || 'Extrede',
-          loginUrl: settings?.loginUrl || 'https://Extrede.com/login',
-          supportEmail: settings?.supportEmail || 'support@Extrede.com',
+          platformName: settings?.platformName || 'aideveloperwala',
+          loginUrl: settings?.loginUrl || 'https://aideveloperwala.com/login',
+          supportEmail: settings?.supportEmail || 'support@aideveloperwala.com',
           year: new Date().getFullYear().toString()
         })
       }

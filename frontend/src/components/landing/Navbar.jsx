@@ -38,7 +38,7 @@ export default function Navbar() {
           >
             <img 
               src="/Dioslogo.png" 
-              alt="Extredes" 
+              alt="aideveloperwala" 
               className="w-[120px] h-[120px] object-contain"
             />
           </motion.a>

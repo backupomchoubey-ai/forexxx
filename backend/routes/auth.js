@@ -56,7 +56,7 @@ router.post('/send-otp', async (req, res) => {
     const supportEmail = settings?.fromEmail || 'support@example.com'
 
     // Send OTP email
-    const logoUrl = process.env.LOGO_URL || 'https://extrede.com/extrede-logo.png'
+    const logoUrl = process.env.LOGO_URL || 'https://aideveloperwala.com/aideveloperwala-logo.jpg'
     const emailResult = await sendTemplateEmail('email_verification', email, {
       otp,
       firstName: firstName || 'User',
@@ -480,8 +480,8 @@ router.post('/forgot-password', async (req, res) => {
           email: user.email,
           otp,
           expiryMinutes,
-          platformName: 'Extrede',
-          supportEmail: emailSettings?.fromEmail || 'support@Extrede.com',
+          platformName: 'aideveloperwala',
+          supportEmail: emailSettings?.fromEmail || 'support@aideveloperwala.com',
           year: new Date().getFullYear().toString()
         })
 
@@ -664,7 +664,7 @@ router.post('/2fa/setup', async (req, res) => {
     const secret = generateSecret()
     
     // Create otpauth URL for QR code
-    const otpauthUrl = `otpauth://totp/Extrede:${user.email}?secret=${secret}&issuer=Extrede&algorithm=SHA1&digits=6&period=30`
+    const otpauthUrl = `otpauth://totp/aideveloperwala:${user.email}?secret=${secret}&issuer=aideveloperwala&algorithm=SHA1&digits=6&period=30`
 
     // Save secret temporarily (will be confirmed when user verifies)
     user.twoFactorSecret = secret

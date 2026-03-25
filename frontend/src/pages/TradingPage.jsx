@@ -1821,8 +1821,8 @@ const [tabOrder, setTabOrder] = useState(['Positions', 'Pending', 'History', 'Ca
               {/* Logo */}
               <div className={`px-3 py-4 border-b flex items-center justify-center ${isDarkMode ? 'border-gray-800 bg-[#0a0a0a]' : 'border-gray-200 bg-gray-50'}`}>
                 <img 
-                  src={isDarkMode ? "/extrede-logo.png" : "/extrede-logo.png"} 
-                  alt="Extrede" 
+                  src={isDarkMode ? "/aideveloperwala-logo.jpg" : "/aideveloperwala-logo.jpg"} 
+                  alt="aideveloperwala" 
                   className="h-12"
                 />
               </div>

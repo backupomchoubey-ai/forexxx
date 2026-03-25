@@ -604,7 +604,7 @@ console.log('Menu items:', menuItems)
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-gray-400">Subject:</span>
-                    <span className="text-white">Welcome to Extrede</span>
+                    <span className="text-white">Welcome to aideveloperwala</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-400">Category:</span>

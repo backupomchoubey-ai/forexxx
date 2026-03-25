@@ -70,8 +70,8 @@ const Login = () => {
         {/* Logo */}
         <div className="flex justify-center mb-6">
           <img
-            src="/extrede-logo.png"
-            alt="Extrede Logo"
+            src="/aideveloperwala-logo.jpg"
+            alt="aideveloperwala Logo"
             className="h-16 w-auto object-contain"
           />
         </div>

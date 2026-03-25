@@ -578,8 +578,8 @@ const AdminEmailTemplates = () => {
             <div className="flex-1 overflow-y-auto bg-gray-100">
               <iframe
                 srcDoc={selectedTemplate.htmlContent
-                  .replace(/\{\{logoUrl\}\}/g, 'https://extrede.com/extrede-logo.png')
-                  .replace(/\{\{platformName\}\}/g, 'Extrede')
+                  .replace(/\{\{logoUrl\}\}/g, 'https://aideveloperwala.com/aideveloperwala-logo.jpg')
+                  .replace(/\{\{platformName\}\}/g, 'aideveloperwala')
                   .replace(/\{\{firstName\}\}/g, 'John')
                   .replace(/\{\{year\}\}/g, new Date().getFullYear().toString())
                 }
