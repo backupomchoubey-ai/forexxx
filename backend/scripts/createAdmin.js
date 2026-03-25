@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 // Admin credentials
-const ADMIN_EMAIL = 'admin@extrede.stores'
+const ADMIN_EMAIL = 'admin@aidev.com'
 const ADMIN_PASSWORD = 'Admin@123456'
 const ADMIN_FIRST_NAME = 'Super'
 const ADMIN_LAST_NAME = 'Admin'
